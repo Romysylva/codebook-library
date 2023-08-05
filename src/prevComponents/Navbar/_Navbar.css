@@ -1,0 +1,9 @@
+.nav {
+  height: 70px;
+  display: flex;
+  align-items: center;
+}
+
+.nav h4 {
+  padding-left: 30px;
+}

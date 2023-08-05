@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.warm-prim__c {
+  background-color: #00f;
+}
+
+.warm-warn__c {
+  background-color: #ecc00f;
+}
+
+.prim__c {
+  background-color: #00f;
+}
+
+.warn__c {
+  background-color: #ecc00f;
+}
+
+.danger__c {
+  background-color: #f00;
+}
+
+.sec__c {
+  background-color: #333;
+}
+
+.light__c {
+  color: #fff;
+}
+
+.dark__c {
+  color: #000;
+}
+
+.m-2 {
+  margin: 20px;
+}
+
+.p-2 {
+  padding: 6px;
+  border-radius: 9px;
+}
+
+.p-3 {
+  padding: 6px;
+  cursor: pointer;
+  border-radius: 9px;
+  border: none;
+}
