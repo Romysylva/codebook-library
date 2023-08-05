@@ -3,11 +3,15 @@ import { Rating } from "./Rating";
 import { useCart } from "../../context";
 import { useEffect, useState } from "react";
 
+
+
+// image_local,
+
 export const ProductCard = ({ product }) => {
 
     const { cartList, addToCart, removeFromCart } = useCart()
 
-    const { id, name, overview, poster, image_local, price, rating, best_seller } = product;
+    const { id, name, overview, poster,  price, rating, best_seller } = product;
 
     const [inCart, setInCart] = useState(false);
 

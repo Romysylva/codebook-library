@@ -25,7 +25,8 @@ export const DropdownLoggedIn = ({ setDropdown }) => {
         }
 
         fetchUsers();
-    }, []); /*eslint-disable */
+        /*eslint-disable */
+    }, []); 
 
     const handleLoggedOut = () => {
         logout()
