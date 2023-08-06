@@ -3,7 +3,6 @@ import { useNavigate } from "react-router-dom";
 
 import { useTitle } from "../hooks/useTitile"
 
-
 import { toast } from "react-toastify";
 
 import { login } from "../services"
@@ -34,8 +33,8 @@ export const Login = () => {
     }
 
     async function handleLoginGeust() {
-        email.current.value = "keyziluvi@gmail.com";
-        password.current.value = "promise12345";
+        email.current.value = process.env.REACT_APP_Guest_Email;
+        password.current.value = process.env.REACT_APP_Guest_Password;
 
         try {
 
