@@ -2,10 +2,12 @@ import { useEffect, useState } from "react"
 import { useParams } from "react-router-dom";
 import { useTitle } from "../hooks/useTitile";
 
+import { toast } from "react-toastify";
+
+
 import { Rating } from "../Components/Elements/Rating";
 import { useCart } from "../context/index"
 import { getProduct } from "../services";
-import { toast } from "react-toastify";
 
 export const ProductDetail = () => {
   const { cartList, addToCart, removeFromCart } = useCart();
